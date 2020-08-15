@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inner-section ,.section-hero{
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+.container-hero{
+    height: 100vh;
+    left: 140px;
+}
+.section-hero{
+    background-image: url(../images/hero_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inner-section{
+    background-color:rgba(27, 26, 26, 0.507);
+}
