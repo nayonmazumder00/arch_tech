@@ -8,15 +8,42 @@ body{
     box-sizing: border-box;
     
 }
-.container-hero{
-    height: 100vh;
-    left: 140px;
+
 }
 .section-hero{
-    background-image: url(../images/hero_1.jpg);
+    
+    
+}
+.inner-section{
+    background-image: linear-gradient(rgba(27, 26, 26, 0.507),rgba(27, 26, 26, 0.507)), url(../images/hero_1.jpg);
+    position: relative;
+    
     background-size: cover;
     background-repeat: no-repeat;
 }
-.inner-section{
-    background-color:rgba(27, 26, 26, 0.507);
+
+.container-hero{
+
+    height: 45vh;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    transform: translate(-10% 30%);
+    background-color: transparent;
+}
+
+.hero-heading{
+
+    font-weight: 600;
+    font-size: 10vh;
+    color: #ffffff;
+}
+.hero-heading::after{
+content: "";
+position: absolute;
+width: 40px;
+height: 7px;
+left: 0;
+background-color: #fb7100;
+bottom: 0;
 }
