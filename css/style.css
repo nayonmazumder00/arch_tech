@@ -53,6 +53,55 @@ body{
 
 /* ?SECTION Quotation style */
 
+.container-quotation{
+    padding: 112px 112px 50px 112px;
+}
+
+.quotation-heading{
+
+    font-weight: 400;
+    font-size: 5vh;
+    color: #000000;
+    padding-bottom: 10px;
+    position: relative;
+}
+.quotation-heading::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 7px;
+    left: 0;
+    background-color: #fb7100;
+    bottom: 0;
+    padding: 2px;
+}
+
+.quick-contact-form{
+    padding: 25px 50px 50px 50px;
+    line-height: 1.2;
+    border-radius: 7px;
+    margin-top: -200px;
+    -webkit-box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.1);
+}
+.qota{
+    padding-bottom: 5px;
+}
+
+.btn ,.btn-primary{
+    border: 1px solid transparent;
+    text-decoration: none;
+    background-color: #fb7100 !important;
+}
+.btn ,.btn-primary:hover{
+    background-color: #eb812ac2 ;
+
+}
+
+.qota{
+    text-align: center;
+    padding-bottom: 5px;
+}
 
 
 /*? !SECTION Quotation style */
