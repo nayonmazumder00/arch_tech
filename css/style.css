@@ -3,9 +3,11 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+/* ! SECTION Hero style */
+
 .inner-section ,.section-hero{
     height: 100vh;
-    box-sizing: border-box;
+    
     
 }
 
@@ -17,7 +19,7 @@ body{
 .inner-section{
     background-image: linear-gradient(rgba(27, 26, 26, 0.507),rgba(27, 26, 26, 0.507)), url(../images/hero_1.jpg);
     position: relative;
-    
+    min-height: 670px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -39,11 +41,18 @@ body{
     color: #ffffff;
 }
 .hero-heading::after{
-content: "";
-position: absolute;
-width: 40px;
-height: 7px;
-left: 0;
-background-color: #fb7100;
-bottom: 0;
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 7px;
+    left: 0;
+    background-color: #fb7100;
+    bottom: 0;
 }
+/* !SECTION Hero style */
+
+/* ?SECTION Quotation style */
+
+
+
+/*? !SECTION Quotation style */
