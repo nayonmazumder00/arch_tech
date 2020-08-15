@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: block;
 }
 /* ! SECTION Hero style */
 
@@ -21,6 +22,7 @@ body{
     position: relative;
     min-height: 670px;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -38,8 +40,9 @@ body{
 .hero-heading{
 
     font-weight: 600;
-    font-size: 10vh;
+    font-size: 3rem;
     color: #ffffff;
+    padding-bottom: 0%;
 }
 .hero-heading::after{
     content: "";
@@ -48,7 +51,7 @@ body{
     height: 7px;
     left: 0;
     background-color: #fb7100;
-    bottom: 0;
+    bottom: 57px;
 }
 /* !SECTION Hero style */
 
@@ -63,7 +66,7 @@ body{
     font-weight: 400;
     font-size: 5vh;
     color: #000000;
-    padding-bottom: 10px;
+    padding-bottom: 14px;
     position: relative;
 }
 .quotation-heading::after{
@@ -104,5 +107,74 @@ body{
     padding-bottom: 5px;
 }
 
+@media (max-width: 575.98px) { 
+    .form-qota{
+    display: none;
+}
+ }
+
 
 /*? !SECTION Quotation style */
+
+
+
+/** SECTION This is Card */
+
+.card{
+    background-color: #dedffe;
+    padding-top: 59px;
+}
+
+.container-card {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.service-2 .svg {
+    width: 60px;
+    margin-bottom: 30px;
+    max-width: 100%;
+
+}
+
+.service-2 {
+    padding: 40px;
+    background: #fff;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    .service-2 .svg {
+      width: 60px;
+      margin-bottom: 30px; }
+      .service-2 .svg img {
+        max-width: 100%; }
+    .service-2 h3 {
+      font-size: 20px;
+      color: #000;
+      font-weight: 700;
+      position: relative; }
+      .service-2 h3 span {
+        display: inline-block;
+        position: relative;
+        padding-bottom: 10px; }
+        .service-2 h3 span:after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          background-color: #efefef;
+          height: 4px; }
+    .service-2:hover {
+      background-color: #2e3192;
+      -webkit-box-shadow: 0 5px 50px 0 rgba(46, 49, 146, 0.1);
+      box-shadow: 0 5px 50px 0 rgba(46, 49, 146, 0.1); }
+      .service-2:hover h3 {
+        color: #fff; }
+        .service-2:hover h3 span:after {
+          background-color: #fb7400; }
+      .service-2:hover p {
+        color: rgba(255, 255, 255, 0.7); }
+/** !SECTION Card */
