@@ -142,12 +142,11 @@ body{
 .service-2 {
     padding: 40px;
     background: #fff;
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
     transition: .3s all ease; }
     .service-2 .svg {
       width: 60px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+     }
       .service-2 .svg img {
         max-width: 100%; }
     .service-2 h3 {
@@ -169,7 +168,6 @@ body{
           height: 4px; }
     .service-2:hover {
       background-color: #2e3192;
-      -webkit-box-shadow: 0 5px 50px 0 rgba(46, 49, 146, 0.1);
       box-shadow: 0 5px 50px 0 rgba(46, 49, 146, 0.1); }
       .service-2:hover h3 {
         color: #fff; }
