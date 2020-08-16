@@ -17,11 +17,10 @@ h1,h2,h3{
     
 }
 
-}
-.section-hero{
+/* .section-hero{
     
     
-}
+} */
 .inner-section{
     background-image: linear-gradient(rgba(27, 26, 26, 0.507),rgba(27, 26, 26, 0.507)), url(../images/hero_1.jpg);
     position: relative;
@@ -95,6 +94,8 @@ h1,h2,h3{
 }
 .qota{
     padding-bottom: 5px;
+    text-transform: uppercase;
+    text-align: start;
 }
 
 .btn ,.btn-primary{
