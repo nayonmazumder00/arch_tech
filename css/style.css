@@ -95,7 +95,7 @@ h1,h2,h3{
 .qota{
     padding-bottom: 5px;
     text-transform: uppercase;
-    text-align: start;
+    text-align: left;
 }
 
 .btn ,.btn-primary{
@@ -182,3 +182,53 @@ h1,h2,h3{
       .service-2:hover p {
         color: rgba(255, 255, 255, 0.7); }
 /** !SECTION Card */
+
+
+/*! SECTION CUSTOM NAV */
+
+
+/*! !SECTION CUSTOM NAV */
+
+/* Testimonial */
+.t_monial{
+    background-color:#dddbdbe3 ;
+}
+
+.title__heading{
+    position: relative;
+}
+
+.t-heading::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 7px;
+    left: 47%;
+    background-color: #fb7100;
+    bottom: -7px;
+    padding: 2px;
+}
+
+.t-container{
+    max-width: 1140px;
+}
+.t-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.testimonial-3 .vcard img {
+    width: 50px;
+    border-radius: 50%;
+    max-width: 1;
+    background-color:#dddbdbe3 ;
+}
+
+
+img {
+    vertical-align: middle;
+    border-style: none;}
+
+/* Testimonial */
